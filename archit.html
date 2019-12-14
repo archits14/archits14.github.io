@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Archit Saxena </title>
+	<meta name="MobileOptimized" content="width">
+	<meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" type="text/css" href="flaticon.css">
+   <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <!-- NAVBAR -->
+ <div id="home">
+    <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md py-0 fixed-top">
+   
+                 
+                 <a href="#" class="navbar-brand" id="Logo"> <b>Archit Saxena </b></a> 
+                 <button  class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label = "Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+                   
+   
+           <div class="collapse navbar-collapse collapse justify-content-end" id="navLinks">
+    
+                   <ul class="navbar-nav ml-auto">
+                       
+                       <li class = "nav-item" id="abt" data-toggle="collapse" data-target=".navbar-collapse.show">
+                               <a class="nav-link" id="abt" href="#ABOUT">  ABOUT </a>
+                         </li>
+   
+                         <li class = "nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                               <a class="nav-link" id="prg" href="#PROGRAMS"> PROGRAMS </a>
+                        </li>
+   
+                        <li class = "nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                           <a class="nav-link" id="cli" href="#CLIENTS"> CLIENTS</a>
+                        </li>
+   
+                         <li class = "nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                           <a class="nav-link" id="blg" href="#BLOG "> BLOG </a> 
+                         </li>
+   
+                         <li class = "nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                           <a class="nav-link"  id="gal" href="#GALLERY"> GALLERY</a> 
+                         </li>
+   
+                         <li class = "nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                           <a class="nav-link" id="cntct" href="#CONTACT"> CONTACT</a> 
+                         </li>
+                   </ul>
+              
+            </div>
+           
+   </nav>
+
+
+<!-- HEADING INTRO -->
+
+		
+      <div class="landing">
+            <div class="home-wrap">
+              <div class="home-inner">
+              </div>
+            </div>
+      </div>
+
+      <div class="caption text-center">
+          <h1 id="nam"> Hi, I'm Archit Saxena</h1>
+          <h2 id="spkr"> Speaker, Corporate Trainer & Youth Mentor </h2>
+                
+                 <!-- <a href="#about"  class="btn btn-primary">
+                        SEE MORE<br>
+                 </a>  -->
+          <h2 id="work"> 75+ Workshops | 350+ Sessions | 15000+ Participants</h2>
+      </div>
+</div>
+
+
+     
+
+ 
+<script src="archit.js"></script>
+ 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script> 
+
+<script>
+$(function () {
+$(document).scroll(function () {
+    var $nav = $("#mainNavbar");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+});
+});
+</script>
+
+
+
+</body>
+
+</html>
