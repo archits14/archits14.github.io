@@ -63,7 +63,7 @@ section {
 /* Landing Page */
 
 .home-inner{
-    background-image: url("architt.jpg");
+    background-image: url("../images/archit-main.jpg");
     background-size: cover;
     height: 100vh;
 }
@@ -273,7 +273,7 @@ section {
 .contact {
     padding: 60px 0;
     z-index: 99;
-    background: url(back.jpg) no-repeat center;
+    background: url("../images/back.jpg") no-repeat center;
     background-size: cover;
  
 }
