@@ -66,6 +66,8 @@ section {
     background-image: url("../images/archit-main.jpg");
     background-size: cover;
     height: 100vh;
+    /* width: 100%; */
+
 }
 
 .caption {
