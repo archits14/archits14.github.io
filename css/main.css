@@ -22,13 +22,18 @@ body{
 }
 
 section {
-    padding: 0;
+    padding: 30px;
     height: 100%;
     position: relative;
 }
 
-.container {
-    padding-top: 50px;
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+    height: 100vh;
+    background-color: white;
+    margin: 25px;
 }
 
 /* navigation */
@@ -70,8 +75,6 @@ section {
     background-image: url("../images/archit-main.jpg");
     background-size: cover;
     height: 100vh;
-    /* width: 100%; */
-
 }
 
 .caption {
@@ -159,7 +162,6 @@ section {
 }
 /* Program section */
 
-
 .heading {
     margin-bottom: 1.2rem;
     color: #000;
@@ -222,75 +224,83 @@ section {
 }
 /* testimonial section */
 
-#customers-testimonial {
-    /* padding: 20px 0; */
-}
-
-.testimonial img {
-    max-width: 159px;
-    margin: 0 auto 0 auto;
-    border: 2px solid black;
-    padding: 4px;
-    margin-bottom: 13px;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    
-    
-}
-
-.testimonial blockquote {
-    border: 0;
-    font-style: italic;
-    padding: 5px 150px;
+.testimonial{
+    background: #1ebba3;
+    text-align: center;
+    padding: 30px 30px 50px;
+    margin: 0 15px 100px;
     position: relative;
-    font-size: 20px;
+    /* margin-top: 58px; */
 }
 
-.testimonial-hr {
-    border-top: 1px solid #1ebba3;
-    width: 250px;
-    margin: 0 auto 2rem;
-    
-} 
-
-.testimonial blockquote:before,
-.testimonial blockquote:after {
-    font-size: 80px;
-    font-size: normal;
-    line-height: 1;
-    width: 30px;
-    height: 30px;
+.testimonial:before,
+.testimonial:after {
+    content: "";
+    border-top: 40px solid #1ebba3;
+    border-right: 125px solid transparent;
     position: absolute;
+    bottom: -40px;
+    left: 0;
 }
 
-.testimonial blockquote:before{
-    content: "\201C";
-    top: 0;
-    left: 100px;
+.testimonial:after {
+    border-right: none;
+    border-left: 125px solid transparent;
+    left: auto;
+    right: 0;
 }
 
-.testimonial blockquote:after{
-    content: "\201D";
-    bottom: 0;
-    right: 100px;
-}
-
-.testimonial-author p {
+.testimonial .icon {
+    display: inline-block;
+    font-size: 80px;
     color: black;
-    font-size: 17px;
+    margin-bottom: 20px;
+    opacity: 0.6;
 }
 
-.testimonial-author strong {
-   display: block;
-}
-
-#TESTIMONIAL h1{
+.testimonial .description {
+    font-size: 20px;
     color: black;
-    text-transform: ;
+    text-align: justify;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.testimonial .testimonial-content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.testimonial .pic{
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px #1ebba3;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
 }
 
 
+.testimonial .title {
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+
+.testimonial .post {
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.pic img {
+    height: 80px;
+    width: 80px;
+}
 /* Gallery Section */
 
 .gallery {
@@ -468,11 +478,6 @@ section {
     text-align: justify;
 }
 
-.testimonial img {
-    display: block;
-    max-width: 100%;
-    height: auto !important;
-}
 
 .gallery-info img {
     margin-left: auto;
