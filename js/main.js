@@ -1,13 +1,14 @@
-$ (function(){
-    $("#customers-testimonial").owlCarousel({
-        items:1,
-        autoplay:true,
-        smartSpeed: 700,
-        loop: true,
-        autoPlayHoverPause:true,
-    });
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        autoPlay:true
+    })
 });
-
 
 new WOW().init();
     $(function(){
