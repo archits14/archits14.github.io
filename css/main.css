@@ -22,7 +22,7 @@ body{
 }
 
 section {
-    padding: 30px;
+    /* padding: 30px; */
     height: 100%;
     position: relative;
 }
@@ -31,9 +31,9 @@ section {
     margin-bottom: 0;
     padding: 2rem 0 3.5rem;
     border-radius: 0;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: white;
-    margin: 25px;
+    /* margin: 25px; */
 }
 
 /* navigation */
@@ -227,7 +227,7 @@ section {
 .testimonial{
     background: #1ebba3;
     text-align: center;
-    padding: 30px 30px 50px;
+    padding: 30px 30px 60px;
     margin: 0 15px 100px;
     position: relative;
     /* margin-top: 58px; */
