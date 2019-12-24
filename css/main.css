@@ -321,6 +321,7 @@ section {
     padding-bottom: 50px;
   }
 
+
   .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -449,8 +450,9 @@ section {
 @media (max-width: 767px) {
   
 .home-inner{
-    background-image: url("../images/profile-resps.png");
+    background-image: url("../images/archit-main.jpg");
     background-size: cover;
+    margin-left: -40px;
  }
 
 
@@ -460,7 +462,7 @@ section {
     text-align: center;
     /* padding-top: 2rem; */
     margin: 0 auto;
-    margin-top: -50px;
+    margin-top: 160px;
 }
 
 .caption h3 {
@@ -476,7 +478,8 @@ section {
 
 .caption h2 {
     font-size: 1.5rem;
-    margin-top: 50px;
+    padding-top: 4rem ; 
+
 }  
 
 .name h1 {
