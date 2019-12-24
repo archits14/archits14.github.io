@@ -157,7 +157,7 @@ section {
     width: 50rem;
     height: .06rem;
     background-color: #1ebba3;
-    margin: 2rem auto 2rem;
+    margin: 1rem auto 1rem;
   
 }
 /* Program section */
@@ -207,10 +207,12 @@ section {
 .program p {
     font-size: 1.1rem;
     text-align: justify;
+   margin-left: 30px;
+   margin-right: 30px;
 }
 
 .btn {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     background-color: #1ebba3;
     color: white;
     border: 0;
@@ -227,10 +229,11 @@ section {
 .testimonial{
     background: #1ebba3;
     text-align: center;
-    padding: 30px 30px 60px;
+    padding: 30px 30px 63px;
     margin: 0 15px 100px;
     position: relative;
-    /* margin-top: 58px; */
+    
+
 }
 
 .testimonial:before,
@@ -259,11 +262,11 @@ section {
 }
 
 .testimonial .description {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     text-align: justify;
-    margin-bottom: 30px;
-    letter-spacing: -1px;
+    margin-bottom: 20px;
+    /* letter-spacing: -1px; */
 }
 
 .testimonial .testimonial-content {
@@ -295,6 +298,11 @@ section {
     display: block;
     font-size: 16px;
     color: black;
+    font-weight: normal;
+   
+}
+.testimonial .company {
+    color: black;
 }
 
 .pic img {
@@ -303,16 +311,52 @@ section {
 }
 /* Gallery Section */
 
+#GALLERY {
+    height: 100vh;
+}
+
 .swiper-container {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
   .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 300px;
+    height: 380px;
+    background-color: black;
+    color: white;
+  }
+
+.swiper-slide .imgBx{
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+  }
+
+  .swiper-slide .imgBx img{
+      width: 100%;
+  }
+
+  .swiper-slide .details{
+      box-sizing: border-box;
+      font-size: 20px;
+      padding: 20px;
+  }
+
+  .swiper-slide .details h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .swiper-slide .details h3 span{
+      font-size: 16px;
+      color: rgb(49, 189, 194);
   }
 
 /* Contact Section */
@@ -436,11 +480,16 @@ section {
 }  
 
 .name h1 {
-    display: none;
+    /* display: none; */
+    font-size: 3.5rem;
 }
 
 .name hr {
-    display: none; 
+    width: 25rem;
+}
+
+.about-info{
+    width: 80%;
 }
 
 .flaticon-business-and-finance:before {
@@ -466,13 +515,6 @@ section {
 .program p {
     font-size: 1rem;
     text-align: justify;
-}
-
-
-.gallery-info img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 
 .contact-info{
