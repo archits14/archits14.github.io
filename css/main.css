@@ -169,7 +169,7 @@ section {
 
 .row {
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 0px;
 }
 
 .heading-underline {
@@ -232,8 +232,7 @@ section {
     padding: 30px 30px 63px;
     margin: 0 15px 100px;
     position: relative;
-    
-
+   
 }
 
 .testimonial:before,
@@ -263,7 +262,7 @@ section {
 
 .testimonial .description {
     font-size: 18px;
-    color: black;
+    color: white;
     text-align: justify;
     margin-bottom: 20px;
     /* letter-spacing: -1px; */
@@ -344,21 +343,17 @@ section {
   .swiper-slide .details{
       box-sizing: border-box;
       font-size: 20px;
-      padding: 20px;
+      /* padding: 20px; */
   }
 
   .swiper-slide .details h3{
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
     font-size: 20px;
     text-align: center;
     line-height: 20px;
   }
 
-  .swiper-slide .details h3 span{
-      font-size: 16px;
-      color: rgb(49, 189, 194);
-  }
 
 /* Contact Section */
 
