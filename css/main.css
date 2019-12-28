@@ -312,6 +312,7 @@ section {
 
 #GALLERY {
     height: 100vh;
+
 }
 
 .swiper-container {
@@ -356,6 +357,7 @@ section {
 
 
 /* Contact Section */
+
 
 .contact {
     padding: 60px 0;
@@ -447,7 +449,7 @@ section {
 .home-inner{
     background-image: url("../images/archit-main.jpg");
     background-size: cover;
-    margin-left: -40px;
+    /* margin-left: -40px; */
  }
 
 
@@ -457,23 +459,27 @@ section {
     text-align: center;
     /* padding-top: 2rem; */
     margin: 0 auto;
-    margin-top: 160px;
+    margin-top: 140px;
 }
 
 .caption h3 {
     font-size:1.2rem;
-    padding-bottom: 1rem ; 
+    padding-bottom: 1.5rem ; 
     text-align: center;
     margin: 0 auto;
 }
 
 .btn-lg{
-    display: none;
+    /* display: none; */
+    justify-content: center;
+    margin-right: 180px;
+    padding: .3rem 1rem; 
+  
 }
 
 .caption h2 {
-    font-size: 1.5rem;
-    padding-top: 4rem ; 
+    font-size: 1.3rem;
+    padding-top: 5.8rem ; 
 
 }  
 
