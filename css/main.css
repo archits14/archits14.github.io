@@ -313,7 +313,7 @@ section {
 
 #CLIENT {
     padding-top: 50px;
-    padding-bottom: 90px;
+    padding-bottom: 55px;
     /* height: 100vh; */
 }
 
@@ -359,19 +359,20 @@ section {
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 380px;
+    height: 320px;
     background-color: black;
     color: white;
   }
 
 .swiper-slide .imgBx{
       width: 100%;
-      height: 300px;
+      height: 250px;
       overflow: hidden;
   }
 
   .swiper-slide .imgBx img{
       width: 100%;
+      height: 230px;
   }
 
   .swiper-slide .details{
