@@ -54,6 +54,10 @@
                             <li class = "nav-item">
                                     <a class="nav-link wow fadeInDown" data-wow-duration=".5s" data-wow-delay="1.3s" id="blg" href="https://blossomingthoughts.wordpress.com/"> BLOG </a> 
                             </li>
+
+                            <li class = "nav-item">
+                                <a class="nav-link wow fadeInDown" data-wow-duration=".5s" data-wow-delay="1.2s" id="cli" href="#CLIENT"> ORGANISATIONS SERVICED</a>
+                            </li>
         
                             <li class = "nav-item">
                                     <a class="nav-link wow fadeInDown" data-wow-duration=".5s" data-wow-delay="1.5s"  id="gal" href="#GALLERY"> GALLERY</a> 
@@ -272,10 +276,10 @@
                 <div class="testimonial">
                     <span class="icon fa fa-quote-left"></span>
                         <p class="description">
-                            Archit has transformed my life for the better.
-                            Thanks for making me who I am today: a better wife, a loving mother, much understanding daughter and a better soul who has no more complains.
+                            Archit has really transformed my life for the better.
+                            Thanks for making me who I am today: a better wife, a loving mother, a much understanding daughter and a better soul who has no more complains.
                         </p>
-                        <br><br><br><br><br>
+                        <br><br><br>
                         <div class="testimonial-content">
                             <div class="pic">
                                 <img src="images/anamika.jpg" alt="">
@@ -283,6 +287,7 @@
                                 <h3 class="title"> Anamika Das </h3>
                                 <span class="post"> Software Engineer </span>
                                 <span class="company"> Infosys </span>
+                                
                         </div>
                 </div>
 
@@ -347,11 +352,58 @@
 <!-- End Testimonial Section -->
 
 <!-- Start Client section -->
-    <!--
+    
     <section  id="CLIENT" class="offset">
+        <div class="col-12 text-center">
+            <h1 class="heading  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s"> ORGANISATIONS SERVICED </h1>
+            <div class="heading-underline wow fadeIn" Updata-wow-duration="1s" data-wow-delay=".9s"></div>
+        </div> 
 
+        <div class="swiper-container s1">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <img src="images/mahindra.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/ifim.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/infosys.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/isbr.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/sdm.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/sibm.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/3m.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/kle.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/medical.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/nit.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/wipro.png">
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-paginationn"></div>
+            <!-- Add Arrows -->
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+          </div>
     </section>
-    -->
+   
 <!-- End Client Section -->
 
 <!-- Start Gallery Section -->
@@ -360,7 +412,7 @@
         <h1 class="heading  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">GALLERY</h1>
         <div class="heading-underline wow fadeIn" Updata-wow-duration="1s" data-wow-delay=".9s"></div>
     </div> 
-        <div class="swiper-container"> 
+        <div class="swiper-container s2"> 
             
                 <div class="swiper-wrapper" id="gallery_wrapper">
                     <div class="swiper-slide">
@@ -497,12 +549,7 @@
 
 </section>        
 
-
-
 <!-- End Gallery Section -->
-
-
-
 
 <!-- Start Contact section -->
     
@@ -569,7 +616,7 @@ crossorigin="anonymous"></script>
 
 <script>
 
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.s2', {
       effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
@@ -584,6 +631,23 @@ var swiper = new Swiper('.swiper-container', {
       },
       pagination: {
         el: '.swiper-pagination',
+      },
+    });
+
+    var swiper = new Swiper('.s1', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
     });
 </script>
