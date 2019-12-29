@@ -308,21 +308,54 @@ section {
     height: 80px;
     width: 80px;
 }
+
+/* Client Section */
+
+#CLIENT {
+    padding-top: 50px;
+    padding-bottom: 90px;
+    /* height: 100vh; */
+}
+
+ .s1 {
+    width: 100%;
+    height: 100%;
+    padding-top: 90px;
+  }
+  .s1 .swiper-slide {
+    text-align: center;
+    font-size: 30px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  } */
+
 /* Gallery Section */
 
 #GALLERY {
     height: 100vh;
-
+    padding-top: 30px;
 }
 
-.swiper-container {
+.s2 {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
 
-  .swiper-slide {
+  .s2 .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
