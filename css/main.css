@@ -139,14 +139,14 @@ section {
 }
 
 .about-info p{
-    line-height: 28px;
-    font-size: 18px;
+    line-height: 40px;
+    font-size: 20px;
 }
 
 .name h1 {
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: 5rem;
+    font-size: 6rem;
     padding-top: 8px;
     color: #000;
     padding-bottom: 20px;
@@ -161,6 +161,7 @@ section {
   
 }
 /* Program section */
+
 
 .heading {
     margin-bottom: 1.2rem;
@@ -366,7 +367,7 @@ section {
   }
 
   .s2 .swiper-pagination {
-      padding-bottom: 25px;
+      padding-bottom: 25 px;
   }
 
 .swiper-slide .imgBx{
