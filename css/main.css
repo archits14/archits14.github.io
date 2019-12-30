@@ -365,6 +365,10 @@ section {
     color: white;
   }
 
+  .s2 .swiper-pagination {
+      padding-bottom: 25px;
+  }
+
 .swiper-slide .imgBx{
       width: 100%;
       height: 250px;
