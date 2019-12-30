@@ -10,7 +10,62 @@ $(document).ready(function(){
     })
 });
 
+$(document).ready(function() {
+    var swiper1 = new Swiper('.s1', {
+        spaceBetween: 50,
+        // centeredSlides: true,
+        breakpoints: {
+            1040: {
+            slidesPerView: 3,
+            spaceBetween: 50
+            },
+            768: {
+            slidesPerView: 2,
+            spaceBetween: 30
+            },
+            640: {
+            slidesPerView: 1,
+            spaceBetween: 20
+            },
+            320: {
+            slidesPerView: 1,
+            spaceBetween: 10
+            }
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination1',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+});
 
+$(document).ready(function() {
+    var swiper2 = new Swiper('.s2', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+        },
+        pagination: {
+            el: '.swiper-pagination2',
+            clickable: true,
+        },
+    });
+});
 
 new WOW().init();
     $(function(){
