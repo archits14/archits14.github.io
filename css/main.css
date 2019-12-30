@@ -323,6 +323,7 @@ section {
     height: 100%;
     padding-top: 90px;
     padding-bottom: 40px;
+    padding: 30px 30px 63px;
   }
   .s1 .swiper-slide {
     text-align: center;
@@ -341,7 +342,15 @@ section {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  } */
+  } 
+
+  .s1 img {
+      width: 60%;
+}
+
+/* .s1 .swiper-pagination{
+
+} */
 
 /* Gallery Section */
 
@@ -367,7 +376,7 @@ section {
   }
 
   .s2 .swiper-pagination {
-      padding-bottom: 25 px;
+      padding-bottom: 25px;
   }
 
 .swiper-slide .imgBx{
@@ -534,6 +543,11 @@ section {
 
 .about-info{
     width: 80%;
+}
+
+.about-info p{
+    line-height: 28px;
+    font-size: 18px;
 }
 
 .flaticon-business-and-finance:before {

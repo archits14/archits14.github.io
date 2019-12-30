@@ -12,12 +12,11 @@ $(document).ready(function(){
 
 $(document).ready(function() {
     var swiper1 = new Swiper('.s1', {
-        spaceBetween: 50,
         // centeredSlides: true,
         breakpoints: {
             1040: {
-            slidesPerView: 3,
-            spaceBetween: 10
+            slidesPerView: 5,
+            spaceBetween: 30
             },
             768: {
             slidesPerView: 2,
@@ -48,10 +47,17 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    var swiper_center = true;
+    if ($(window).width() <= 767) {
+        swiper_center = true;
+    }
+    else {
+        swiper_center = false;
+    }
     var swiper2 = new Swiper('.s2', {
         effect: 'coverflow',
         grabCursor: true,
-        centeredSlides: true,
+        centeredSlides: swiper_center,
         slidesPerView: 'auto',
         coverflowEffect: {
             rotate: 50,
@@ -82,6 +88,15 @@ new WOW().init();
       var frm = document.getElementsByName('contact-form')[0];
       frm.submit(); // Submit the form
       frm.reset();  // Reset all form data
+
+      // Hide the form
+      var form = document.getElementById("contact-form-toggle");
+      form.style.display = "none";
+
+      // Show info
+      var info = document.getElementById("form-submitted-info");
+      info.style.display = "block";
+      
       return false; // Prevent page refresh
    }
 
