@@ -15,20 +15,20 @@ $(document).ready(function() {
         // centeredSlides: true,
         breakpoints: {
             1040: {
-            slidesPerView: 5,
-            spaceBetween: 30
+            slidesPerView: 3,
+            spaceBetween: 10
             },
             768: {
             slidesPerView: 2,
             spaceBetween: 30
             },
             640: {
-            slidesPerView: 1,
-            spaceBetween: 20
+            slidesPerView: 2,
+            spaceBetween: 5
             },
             320: {
-            slidesPerView: 1,
-            spaceBetween: 10
+            slidesPerView: 2,
+            spaceBetween: 5
             }
         },
         autoplay: {
