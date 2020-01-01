@@ -322,8 +322,8 @@ section {
     width: 100%;
     height: 100%;
     padding-top: 90px;
-    padding-bottom: 40px;
-    padding: 30px 30px 63px;
+    /* padding-bottom: 0px; */
+    /* padding: 30px 30px 63px; */
   }
   .s1 .swiper-slide {
     text-align: center;
@@ -348,15 +348,15 @@ section {
       width: 60%;
 }
 
-/* .s1 .swiper-pagination{
-
-} */
+.s1 .swiper-wrapper {
+padding-bottom: 50px;
+}
 
 /* Gallery Section */
 
 #GALLERY {
     height: 100vh;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .s2 {
@@ -376,7 +376,7 @@ section {
   }
 
   .s2 .swiper-pagination {
-      padding-bottom: 25px;
+      padding-bottom: 0px;
   }
 
 .swiper-slide .imgBx{
@@ -481,6 +481,13 @@ section {
     color: white;
     text-align: center;
     font-family: 'Lato', sans-serif;
+    padding-bottom: 30px;
+}
+#social-media{
+    font-size: 35px;
+    color:#1ebba3;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 /* Footer Section */
@@ -508,7 +515,7 @@ section {
     text-align: center;
     /* padding-top: 2rem; */
     margin: 0 auto;
-    margin-top: 140px;
+    margin-top: 170px;
 }
 
 .caption h3 {
@@ -519,16 +526,16 @@ section {
 }
 
 .btn-lg{
-    /* display: none; */
-    justify-content: center;
-    margin-right: 180px;
-    padding: .3rem 1rem; 
+    display: none;
+    /* justify-content: center;
+    margin-right: 140px;
+    padding: .3rem 1rem;  */
   
 }
 
 .caption h2 {
     font-size: 1.3rem;
-    padding-top: 5.8rem ; 
+    padding-top: 3rem ; 
 
 }  
 
@@ -539,6 +546,7 @@ section {
 
 .name hr {
     width: 25rem;
+    padding-bottom: 0px;
 }
 
 .about-info{
@@ -574,13 +582,16 @@ section {
     font-size: 1rem;
     text-align: justify;
 }
+
 .swiper-pagination {
     display: none;
 }
 
-.s1 {
-    padding-bottom: 20px;
-  }
+
+
+.s1 .swiper-wrapper {
+    padding-bottom: 0px;
+    }
 .contact-info{
     margin: 10px 10% 10px 10%;
 }
