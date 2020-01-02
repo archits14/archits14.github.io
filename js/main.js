@@ -74,29 +74,37 @@ $(document).ready(function() {
 });
 
 new WOW().init();
-    $(function(){
-        $('[data-toggle="popover"]').popover()
-    });
+$(function(){
+    $('[data-toggle="popover"]').popover()
+ });
 
     // https://script.google.com/macros/s/AKfycbzdf8AG4utXnyrIZRURWeDxV26Jk7mPdGZTI61cnAIYc0tJm0Hd/exec
 
-    function submitForm() {
-      // Get the first form with the name
-      // Usually the form name is not repeated
-      // but duplicate names are possible in HTML
-      // Therefore to work around the issue, enforce the correct index
-      var frm = document.getElementsByName('contact-form')[0];
-      frm.submit(); // Submit the form
-      frm.reset();  // Reset all form data
+function submitForm() {
+    // Get the first form with the name
+    // Usually the form name is not repeated
+    // but duplicate names are possible in HTML
+    // Therefore to work around the issue, enforce the correct index
+    var frm = document.getElementsByName('contact-form')[0];
+    frm.submit(); // Submit the form
+    frm.reset();  // Reset all form data
 
-      // Hide the form
-      var form = document.getElementById("contact-form-toggle");
-      form.style.display = "none";
+    // Hide the form
+    var form = document.getElementById("contact-form-toggle");
+    form.style.display = "none";
 
-      // Show info
-      var info = document.getElementById("form-submitted-info");
-      info.style.display = "block";
-      
-      return false; // Prevent page refresh
-   }
+    // Show info
+    var info = document.getElementById("form-submitted-info");
+    info.style.display = "block";
+    
+    return false; // Prevent page refresh
+}
 
+//Hamburger menu toggle
+$(".navbar li a").click(function (event) {
+// check if window is small enough so dropdown is created
+var toggle = $(".navbar-toggler").is(":visible");
+if (toggle) {
+    $(".navbar-collapse").collapse('hide');
+}
+});
