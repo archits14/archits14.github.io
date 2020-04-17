@@ -36,6 +36,12 @@ section {
     /* margin: 25px; */
 }
 
+.heading-underline {
+    width: 5rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
 /* navigation */
 
 .navbar {
@@ -132,7 +138,8 @@ section {
 
 /* About Section */
 #ABOUT {
-    height: 100vh;
+    /* height: 130vh; */
+    padding-bottom: 40px;
 }
 
 .about-info{
@@ -149,24 +156,32 @@ section {
     font-size: 20px;
 }
 
-.name h1 {
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 6rem;
-    padding-top: 8px;
-    color: #000;
-    padding-bottom: 20px;
+.trainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
-.name hr {
-  
-    width: 50rem;
-    height: .06rem;
-    background-color: #1ebba3;
-    margin: 1rem auto 1rem;
-  
+.fa {
+    color: #1ebba3;
+    margin: 1rem;
 }
-/* Program section */
+
+.trainer-hr {
+    border-top: .05rem solid #1ebba3;
+}
+
+.row {
+    font-size: 16px;
+    text-align: justify;
+}
+
+cite {
+    font-style: bold;
+    color: black;
+    font-size: 18px;
+}
+/* Benefit section */
 
 
 .heading {
@@ -174,64 +189,7 @@ section {
     color: #000;
 }
 
-.row {
-    margin: 0 auto;
-    padding: 0px;
-}
 
-.heading-underline {
-    width: 5rem;
-    height: .2rem;
-    background-color: #1ebba3;
-    margin: 0 auto 2rem;
-}
-
-.flaticon-business-and-finance:before {
-    color: #1ebba3;
-    font-size: 5rem;
-}
-
-.flaticon-business-and-finance:before:hover {
-    transform: scale(1.1);
-}
-
-.flaticon-yoga:before {
-    color: #1ebba3;
-    font-size: 5rem;
-}
-
-.flaticon-career:before{
-    color: #1ebba3;
-    font-size: 5rem;
-}
-
-.program h3{
-    font-size: 1.3rem;
-    padding-bottom: .4rem;
-    color: #000;
-}
-
-.program p {
-    font-size: 1.1rem;
-    text-align: justify;
-    margin-left: 22px;
-    margin-right: 22px;
-    padding-top: 17px;
-}
-
-.btn {
-    margin-bottom: 50px;
-    background-color: #1ebba3;
-    color: white;
-    border: 0;
-}
-
-.card {
-    text-align: left;
-    color: black;
-    letter-spacing: 1px;
-    
-}
 /* testimonial section */
 
 .testimonial{
@@ -522,6 +480,15 @@ padding-bottom: 50px;
     height: auto;
     width: 100%;
 }
+
+.trainer img {
+    width: 50%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 
 .caption h1 {
     font-size:2rem;
