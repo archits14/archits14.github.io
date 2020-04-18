@@ -157,10 +157,20 @@ section {
 }
 
 .trainer img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 80%;
+    border-radius: 50%; */
+    display: inline-block;
+    border: 4px solid white;
     border-radius: 50%;
+    box-shadow: 0 0 2px 2px #1ebba3;
+    overflow: hidden;
+    z-index: 1;
+    /* position: relative; */
+    height: 100px;
+    width: 100px;
 }
+
 
 .fa {
     color: #1ebba3;
@@ -482,11 +492,11 @@ padding-bottom: 50px;
 }
 
 .trainer img {
-    width: 50%;
-    border-radius: 50%;
+    
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-bottom: 20px;
 }
 
 
